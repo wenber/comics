@@ -1,0 +1,123 @@
+/*wrap*/
+.wrap {
+    width:1000px;
+    margin:0 auto;
+    background:#FFF;
+   
+   
+}
+/*head*/
+.head {
+    height:130px;
+    padding-top: 20px;
+}
+.searchWarm{
+    border-color: red!important;
+}
+.h-top {
+    height:90px;
+    margin-left:45px;
+    padding-top:10px;
+    background:url(http://sources.corp.qunar.com/comics/logo.gif) no-repeat;
+}
+.search-btn {
+float:right;
+margin-left:10px;
+width:120px;
+margin-right:80px;
+display:inline-block;
+height:44px;
+border:none;
+background:#f6851f;
+color:#FFF;
+font-weight:bold;
+font-size:16px;
+}
+.search-text {
+    float:right;
+    width:515px;
+    border:1px solid #CCC;
+    height:44px;
+    line-height:44px;
+    font-size:18px;
+    color:#CCC;
+}
+
+
+
+.h-menu {
+    height:30px;
+    border-bottom:2px solid #f6851f;
+    background:#f2f2f2;
+    text-align:left;
+    padding-left:10px;
+}
+    .h-menu a {
+    text-align:center;
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    color:black;
+    font-weight:bold;
+    font-size:14px;
+    padding:0 10px;
+    float: left;
+    }
+    .h-menu a:hover,
+    .h-menu a.sel {
+     background:#f6851f;
+     color:#FFF;
+     text-decoration:none;
+     cursor:pointer;
+    }
+/*foot*/
+.foot{
+    clear: both;
+    margin-top: 6px;
+    height:24px;
+    font-size: 12 px;
+    line-height: 24x;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.f-right{
+    float:right;
+    color:#f6851f;
+}
+.f-right a{
+     color:#f6851f;
+
+}
+.f-right a:hover{
+    text-decoration: underline;
+
+}
+.f-left{
+  text-align: left;
+  color: #AAA;
+
+}
+
+/*分页样式*/
+.pageBar{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
+.pageBar a, .pageBar b{
+    padding: 4px 8px;margin:0 2px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: normal;
+
+}
+.p-sel{
+    background:#f6851f!important;
+    color:#FFF;
+}
+a.p-over,b.p-over{
+    border-color: #f6851f;
+    color: #333;
+}

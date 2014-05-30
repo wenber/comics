@@ -1,0 +1,27 @@
+@charset "utf-8";html,body,div,img,span,a,h1,h2,h3,h4,h5,h6,ul,ol,pre,fieldset,li,input,blockquote,textarea,button,dl,dt,dd,body,pre,form,p,th,td,table,legend{margin:0;padding:0;word-wrap:break-word;word-break:break-all}
+body{margin:0 auto;font-size:14px;text-align:center;font-family:'����,Arial,sans-serif';-webkit-text-size-adjust:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ul,ol{list-style-type:none}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+ol{list-style-type:decimal}
+input{vertical-align:middle}
+abbr,acronym{border:0}
+.fl{float:left;display:inline}
+.fr{float:right}
+.nowrap{white-space:nowrap}
+.clear{clear:both}
+.body_form{height:200px;width:600px}
+.form2{float:right;display:none;text-align:center;width:300px}
+.form2_addManager{float:right}
+.various{width:120px;height:34px;background-color:#f6851f;font-size:14px;color:white}
+.body_div1{min-width:600px;position:absolute;top:5%;right:400px;left:400px;border:2px solid #f6851f}
+.body_div{display:none;min-width:600px;height:120px;position:absolute;top:410px;right:400px;left:400px;border:1px solid #f6851f;text-align:center}
+hr{border-top:2px solid #f6851f}
+h1{text-align:center}

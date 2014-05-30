@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(common.css);
+/*content*/
+.content
+{
+padding-top: 20px;
+}
+.c-show{
+    height: 254px;
+    border: 1px solid #CCC;
+    width: 986px;
+    background: #fff7f2;
+    padding: 8px 7px;
+}
+.c-show dl dt , .c-show dl dd{
+    float: left;
+    _display:inline-block;
+    overflow: hidden;
+
+}
+.c-show dl dd{
+    width: 780px;
+    height: 250px;
+    text-align: left;
+    margin-left: 10px;
+}
+.c-show dl dt {
+    height: 250px;
+    width: 187px;
+    _font-size:0;
+    position: relative;
+    left: 0;
+    top:0;
+
+    
+}
+.c-show dl dt span{
+     position: absolute;
+     bottom: 4px;
+     left: 0;
+     display:inline-block;
+     width: 187px;
+     height: 24px;
+     background: black;
+     opacity: 0.3;
+     z-index: 2;
+
+}
+.c-show dl dt b{
+    position: absolute;
+     bottom: 4px;
+     left: 0;
+     display:inline-block;
+     width: 187px;
+     height: 24px;
+     line-height: 24px;
+     z-index: 3;
+     color: #FFF;
+     font-size: 20px;
+}
+.detail-info{
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.c-img{
+    height: 250px;
+    width: 187px;
+}
+.hua-name{
+    margin-top: 2px;
+    font-weight: bold;
+    color:black;
+    font-size: 16px;
+    overflow: hidden;
+
+
+}
+.c-detail{
+    margin-top:26px;
+    font-weight: bold;
+    color:#AAA;
+    font-size: 11px;
+    overflow: hidden;
+}
+.c-detail p {
+    line-height: 22px;
+}
+.c-detail span{
+    color:#f6851f;
+}
+
+.hua-name:hover{
+    color: #2449d3;
+}
+.updateCounts{
+    margin-top: 2px;
+    color: #AAA;
+
+}
+h1{
+    font-size: 16px;
+    color: #777;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    clear: both;
+}
+.hua-name-class{
+    color: #777;
+    padding: 0 4px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.li-wrap {
+    overflow: hidden;
+    padding: 8px 0;
+}
+.every-pic{
+    float: left;
+    _display:inline;
+    width: 122px;
+    margin-right: 18px;
+    _margin-right:14px;
+    height:186px;
+    margin-bottom:10px;
+}
+.c-p-one{
+    height: 162px;
+    width: 122px;
+    border: 1px solid #CCC;
+}
+.li-last-right{
+    margin-right: 0;
+}
+
+.source{
+    text-align: left;
+    color: #777;
+    padding: 6px 0;
+    padding-left: 10px;
+    height: 18px; line-height: 18px;
+
+    margin-bottom: 10px;
+}
+.source b{
+    margin-right: 20px;
+    display: inline-block;
+    padding: 4px 8px;
+
+}
+.source a{
+    display: inline-block;
+    padding: 4px 8px;
+   background: #CCC;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+ .hua-pages span{
+    display: inline-block;
+    width: 84px;
+    padding: 4px ;
+    text-align: center;
+   background: #CCC;
+    color: white;
+    cursor: pointer;
+    margin:5px 5px 5px 0;
+}
+
+
+a.s-sel,span.s-sel{
+     background: #f6851f;
+}
+
+.hua-pages{
+    text-align: left;
+    color: #777;
+    padding-left: 12px;
+    background: #fff7f2;
+    padding: 6px 13px;
+    margin-top: 2px;   
+}
+.episode{
+    padding-top: 10px;
+    border-bottom:  1px dashed #CCC;
+    padding-bottom: 30px;
+    overflow: hidden;
+    *zoom:1;
+}
+.episode li{
+    float: left;  _display:inline;
+    margin: 5px 12px;padding: 4px 8px 6px;
+    position: relative; left: 0;top: 0;
+    width: 58px; height: 18px; 
+    border: 1px solid #CCC; 
+    cursor: pointer;
+    line-height: 18px;
+    overflow: hidden;
+}
+.episode li a{
+    color: #777;
+    display: inline-block;
+    line-height:23px; 
+    font-size: 14px;
+
+}
+.episode-right{
+    margin-right: 0;
+}
+.episode-sel{
+    color:#FFF!important;
+    background: #f6851f;
+}
+
+.episode li img{
+    position: absolute; right: 0; top: 0;
+    width: 9px; height: 7px;
+
+}

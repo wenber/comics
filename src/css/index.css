@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(common.css);
+/*content*/
+.content
+{
+  margin-top: 16px;
+}
+.c-menu{
+    text-align: left;
+    overflow: hidden;
+    zoom:1;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 32px;
+}
+.c-m{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 6px 20px;   
+    border-bottom: none;
+    float: left;
+    color:#aaa;
+    margin-top: 3px;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+.c-m-sel{
+    border-top:2px solid #f6851f;
+    margin-top:0;
+    padding-top: 9px;
+    color:black;
+    border-top-right-radius: 2px; 
+    border-top-left-radius: 2px; 
+    background: #fff;
+}
+.every-pic{
+    width: 109px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin: 14px;
+    *margin: 14px 15px 14px 15px;
+    display: inline;
+    overflow:hidden;
+    zoom:1;
+}
+.every-pic dd{
+    padding-top: 10px;
+}
+.every-pic dd p{
+     height: 20px;
+     line-height: 20px;
+
+}
+.c-pic{
+border: 1px solid #ccc;
+overflow: hidden;
+}
+.c-pic ul{
+    overflow: hidden; 
+    zoom: 1;
+}
+.modi-left{
+    margin-left: 30px;
+}
+.c-p-one{
+     width: 107px;
+     height: 142px;
+     border: 1px solid #ccc;
+     padding: 1px;
+     
+}
+.hua-name{
+    font-weight: bold;
+    color:black;
+    font-size: 14px;
+    white-space:nowrap;
+     overflow: hidden;
+     padding: 0 4px;
+}
+.hua-name:hover{
+    color: #2449d3;
+}
+.updateCounts{
+    color: #aaa;
+    width:110px;
+    padding: 0 4px;
+    overflow: hidden;
+
+}
